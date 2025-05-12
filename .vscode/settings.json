@@ -1,0 +1,110 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.sortMembers": "always"
+  },
+  "editor.suggestSelection": "first",
+  "workbench.sideBar.location": "left",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.debug": true,
+  "eslint.codeAction.disableRuleComment": {
+    "location": "sameLine"
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.run": "onSave",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.rules.customizations": [
+    {
+      "semi": ["error", "always"],
+      "quotes": ["error", "double"]
+    }
+  ],
+  "files.autoSave": "off",
+  "workbench.editorAssociations": {
+    "*.js": "default",
+    "*.ttf": "default"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "eslint.nodeEnv": "",
+  "git.ignoreRebaseWarning": true,
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "editor.language.brackets": [],
+  "eslint.codeActionsOnSave.rules": null,
+  "less.lint.emptyRules": "error",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "[plaintext]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "cSpell.words": [
+    "amikacin",
+    "aminosalycyclic",
+    "Bedaqualine",
+    "bedaquiline",
+    "cbnaat",
+    "clofazimine",
+    "delamanid",
+    "ethionamide",
+    "Extrapulmonary",
+    "FLLPA",
+    "Formik",
+    "injectables",
+    "kanamycin",
+    "katg",
+    "kshay",
+    "levofloxacin",
+    "linezolid",
+    "LYMPHA",
+    "Maison",
+    "mfxh",
+    "mgit",
+    "moxifloxacin",
+    "nikshay",
+    "Nontuberculosis",
+    "pyrazinamide",
+    "rifampicin",
+    "Setu",
+    "SLLPA",
+    "trunat"
+  ]
+}

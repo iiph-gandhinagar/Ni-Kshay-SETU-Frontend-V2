@@ -1,0 +1,28 @@
+.slick-container.slick-slider {
+  margin-inline: -8px;
+}
+
+.slick-container .slick-slide > div {
+  margin-inline: 8px;
+}
+
+.slick-container .slick-list {
+  padding-left: 0px !important;
+}
+
+.slick-container .slick-dots li {
+  width: 8px;
+  height: 8px;
+  margin: 0 2px;
+}
+
+.slick-container .slick-dots li button::before {
+  opacity: 1;
+  color: #ececec;
+  font-size: 8px;
+}
+
+.slick-container .slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #394f89;
+}

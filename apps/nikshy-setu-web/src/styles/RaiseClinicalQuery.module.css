@@ -1,0 +1,10 @@
+.RaiseClinicalQueryForm label {
+  color: #409bbb !important;
+  font-weight: 500;
+}
+
+.RaiseClinicalQueryForm :is(input, select) {
+  font-weight: 500;
+  font-size: 18px !important;
+  color: #acabab;
+}

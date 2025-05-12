@@ -1,0 +1,69 @@
+.key-feature-carousel .slick-track {
+  display: flex !important;
+}
+
+.key-feature-carousel .slick-slide {
+  height: inherit !important;
+}
+
+.key-feature-carousel .slick-slide > div {
+  height: 100%;
+}
+
+.key-feature-carousel.slick-slider {
+  margin-inline: -15px;
+}
+
+.key-feature-carousel .slick-slide > div {
+  margin-inline: 15px;
+}
+
+.key-feature-carousel .slick-dots,
+.testimonials-carousel .slick-dots {
+  bottom: -30px;
+}
+
+.key-feature-carousel .slick-dots li,
+.descriptions-carousel .slick-dots li,
+.testimonials-carousel .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+}
+
+.key-feature-carousel .slick-dots li button::before {
+  opacity: 1;
+  color: #d9d9d933;
+  font-size: 10px;
+}
+
+.key-feature-carousel .slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #d9d9d9;
+}
+
+.testimonials-carousel .slick-dots.dark-gray li button::before {
+  opacity: 1;
+  color: #8080804d;
+  font-size: 10px;
+}
+
+.testimonials-carousel .slick-dots.dark-gray li.slick-active button::before {
+  opacity: 1;
+  color: #707070;
+}
+
+.descriptions-carousel .slick-dots {
+  text-align: left;
+}
+
+.descriptions-carousel .slick-dots li button::before {
+  opacity: 1;
+  color: #ffffff4d;
+  font-size: 10px;
+}
+
+.descriptions-carousel .slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #ffffff;
+}

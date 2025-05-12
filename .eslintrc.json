@@ -1,0 +1,108 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    "build/",
+    ".next/",
+    "coverage/",
+    "*.min.js",
+    "*.bundle.js",
+    "*.cjs",
+    "README.md",
+    "apps/nikshy-setu-web/public/"
+  ],
+  "plugins": ["@nx", "react", "@typescript-eslint", "import"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-typescript",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true,
+      "ts": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": "./tsconfig.base.json"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "react/react-in-jsx-scope": "off",
+        "require-jsdoc": "off",
+        "no-unused-vars": "off",
+        "react/prop-types": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-explicit-any": ["off"],
+        "@typescript-eslint/ban-types": "off",
+        "react/function-component-definition": [
+          "error",
+          {
+            "namedComponents": "arrow-function",
+            "unnamedComponents": "arrow-function"
+          }
+        ],
+        "no-whitespace-before-property": "error",
+        "array-bracket-spacing": ["error", "never"],
+        "object-curly-spacing": ["off", "never"],
+        "space-before-function-paren": ["off", "never"],
+        "linebreak-style": ["error", "unix"],
+        "indent": ["off"],
+        "react/jsx-indent": ["off"],
+        "react/jsx-indent-props": ["off"],
+        "no-trailing-spaces": "error",
+        "@typescript-eslint/indent": ["off"],
+        "@typescript-eslint/quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "@typescript-eslint/semi": ["error", "always"],
+        "react/jsx-curly-spacing": [
+          "error",
+          {
+            "when": "never",
+            "children": true
+          }
+        ],
+        "react/jsx-max-props-per-line": [
+          "error",
+          {
+            "maximum": 1,
+            "when": "always"
+          }
+        ],
+        "react/jsx-tag-spacing": [
+          "error",
+          {
+            "closingSlash": "never",
+            "beforeSelfClosing": "always",
+            "afterOpening": "never",
+            "beforeClosing": "never"
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": ["plugin:@nx/typescript"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "error"
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": ["plugin:@nx/javascript"],
+      "rules": {}
+    }
+  ],
+  "rules": {}
+}

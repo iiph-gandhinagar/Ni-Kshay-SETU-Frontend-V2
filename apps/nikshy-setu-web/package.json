@@ -1,0 +1,26 @@
+{
+  "name": "nikshy-setu-web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "*",
+    "react-cookie": "*",
+    "react-dom": "*",
+    "react-card-stack-carousel": "*",
+    "tslib": "*",
+    "webpack-cli": "*",
+    "topojson-client": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-react": "*",
+    "@nx/detox": "*",
+    "@nx/react": "*",
+    "@nx/web": "*",
+    "babel-jest": "*",
+    "detox": "*",
+    "dotenv": "*",
+    "react-refresh": "*",
+    "webpack-cli": "*"
+  }
+}

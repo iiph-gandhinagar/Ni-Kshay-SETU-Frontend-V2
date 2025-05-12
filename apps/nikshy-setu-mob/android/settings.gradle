@@ -1,0 +1,13 @@
+rootProject.name = 'NikshySetuMob'
+
+apply from: file("../../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../../../node_modules/@react-native/gradle-plugin')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-splash-screen/android')
+include ':react-native-community-checkbox'
+project(':react-native-community-checkbox').projectDir = new File(rootProject.projectDir, '../../../node_modules/@react-native-community/checkbox/android')
+include ':react-native-sqlite-storage'
+project(':react-native-sqlite-storage').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-sqlite-storage/platforms/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-push-notification/android')

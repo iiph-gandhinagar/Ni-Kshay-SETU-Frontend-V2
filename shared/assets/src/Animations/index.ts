@@ -1,0 +1,9 @@
+export const botHeyAnimation = require('./botHey.json');
+export const loaderAnimation = require('./loader.json');
+export const buttonLoader = require('./buttonLoader.json');
+export const micAnimation = require('./micAnimation.json');
+export const rocketAnimation = require('./rocket.json');
+export const typingAnimation = require('./typing.json');
+export const noInternetAnimation = require('./noInternet.json');
+export const noDataAnimation = require('./noData.json');
+export const celebrationAnimation = require('./celebrationAnimation.json');

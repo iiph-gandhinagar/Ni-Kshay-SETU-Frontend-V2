@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Maison-Bold.otf",
+      "sha1": "03e6d8da8ac6c8b08011039f2f74c7096d570651"
+    },
+    {
+      "path": "src/assets/fonts/Maison-Demi.otf",
+      "sha1": "bc1c5dba272f5c8d196cfc2c66dd310702eafda6"
+    },
+    {
+      "path": "src/assets/fonts/Maison-Light.otf",
+      "sha1": "9735b9e0e7672580f9584e448eefa485b954ee86"
+    },
+    {
+      "path": "src/assets/fonts/Maison-Medium.otf",
+      "sha1": "cf64b4f5adb1725e07f61888452022d9a2f87ab1"
+    },
+    {
+      "path": "src/assets/fonts/Maison-Regular.otf",
+      "sha1": "9089a23d2a7da23a7d33eb373234275c608cd606"
+    },
+    {
+      "path": "src/assets/fonts/Maison-RegularOblique.otf",
+      "sha1": "002b3ba85a6c2eb5a6e29e4b20f0b14ca0ea083f"
+    },
+    {
+      "path": "src/assets/fonts/MaisonMono-Bold.otf",
+      "sha1": "3101d40d1845e4ed0b01a4910156234e66d59fa1"
+    },
+    {
+      "path": "src/assets/fonts/MaisonMono-Light.otf",
+      "sha1": "82b1e09559f473f0d7ee3426d264426e0460d37e"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+diff --git a/node_modules/react-card-stack-carousel/index.js b/node_modules/react-card-stack-carousel/index.js
+index 12adf9f..0e6d5cc 100644
+--- a/node_modules/react-card-stack-carousel/index.js
++++ b/node_modules/react-card-stack-carousel/index.js
+@@ -1 +1 @@
+-export * from "./src/StackedCarousel";
++export * from "./dist/index";

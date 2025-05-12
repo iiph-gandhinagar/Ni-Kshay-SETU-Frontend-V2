@@ -1,0 +1,22 @@
+const FolderSvg = () => {
+  return (
+    <svg
+      width='31'
+      height='30'
+      viewBox='0 0 31 30'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M25.5 7.5H14.25L11.75 5H5.5C4.125 5 3 6.125 3 7.5V12.5H28V10C28 8.625 26.875 7.5 25.5 7.5Z'
+        fill='#FFA000'
+      />
+      <path
+        d='M25.5 7.5H5.5C4.125 7.5 3 8.625 3 10V22.5C3 23.875 4.125 25 5.5 25H25.5C26.875 25 28 23.875 28 22.5V10C28 8.625 26.875 7.5 25.5 7.5Z'
+        fill='#FFCA28'
+      />
+    </svg>
+  );
+};
+
+export default FolderSvg;

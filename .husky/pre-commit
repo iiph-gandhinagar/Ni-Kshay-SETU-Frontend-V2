@@ -1,0 +1,52 @@
+#!/bin/sh
+
+# Define colors for output messages
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+# Helper function to check command status and print appropriate message
+check_status() {
+    if [ $1 -ne 0 ]; then
+        echo -e "${RED}❌ $2 failed. Please fix the issues before committing.${NC}" >&2
+        exit 1
+    else
+        echo -e "${GREEN}✅ $2 passed.${NC}"
+    fi
+}
+
+
+
+# Run prettier
+echo -e "${YELLOW}Running Prettier...${NC}"
+npm run prettier
+check_status $? "Prettier formatting"
+
+# Run lint-staged
+echo -e "${YELLOW}Running lint-staged...${NC}"
+npx lint-staged
+check_status $? "Lint-staged"
+
+# Run spell-check
+echo -e "${YELLOW}Running spell-check...${NC}"
+npm run spell-check
+SPELL_CHECK_STATUS=$?
+
+if [ $SPELL_CHECK_STATUS -ne 0 ]; then
+    echo -e "
+    ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+    ${RED}❌ Spelling errors found. Please fix them before committing.${NC}
+
+    ${YELLOW}Suggestions to resolve the issue:${NC}
+    1. Correct the spelling in your code.
+    2. Add valid words to 'cspell.json' if necessary.
+
+    ${YELLOW}Command to ignore a valid word:${NC}
+    ${GREEN}npx cspell add --word <your_word>${NC}
+    ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+    " >&2
+    exit 1
+else
+    echo -e "${GREEN}✅ No spelling errors found. Proceeding with lint-staged and prettier.${NC}"
+fi

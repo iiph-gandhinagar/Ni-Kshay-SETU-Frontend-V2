@@ -1,0 +1,10 @@
+{
+  "name": "nikshy-setu-mob-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/nikshy-setu-mob-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["nikshy-setu-mob"],
+  "// targets": "to see all targets run: nx show project nikshy-setu-mob-e2e --web",
+  "targets": {}
+}

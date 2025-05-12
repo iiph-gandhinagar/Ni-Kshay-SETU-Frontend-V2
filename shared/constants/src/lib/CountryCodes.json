@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Afghanistan",
+    "dial_code": "+93",
+    "code": "AF"
+  },
+  {
+    "name": "India",
+    "dial_code": "+91",
+    "code": "IN"
+  },
+  {
+    "name": "Argentina",
+    "dial_code": "+54",
+    "code": "AR"
+  },
+  {
+    "name": "Australia",
+    "dial_code": "+61",
+    "code": "AU"
+  },
+  {
+    "name": "Austria",
+    "dial_code": "+43",
+    "code": "AT"
+  },
+  {
+    "name": "Indonesia",
+    "dial_code": "+62",
+    "code": "ID"
+  },
+  {
+    "name": "Pakistan",
+    "dial_code": "+92",
+    "code": "PK"
+  },
+  {
+    "name": "Azerbaijan",
+    "dial_code": "+994",
+    "code": "AZ"
+  },
+  {
+    "name": "Bangladesh",
+    "dial_code": "+880",
+    "code": "BD"
+  },
+  {
+    "name": "Bhutan",
+    "dial_code": "+975",
+    "code": "BT"
+  },
+  {
+    "name": "Brazil",
+    "dial_code": "+55",
+    "code": "BR"
+  },
+  {
+    "name": "Canada",
+    "dial_code": "+1",
+    "code": "CA"
+  },
+  {
+    "name": "France",
+    "dial_code": "+33",
+    "code": "FR"
+  },
+  {
+    "name": "Germany",
+    "dial_code": "+49",
+    "code": "DE"
+  },
+  {
+    "name": "Ghana",
+    "dial_code": "+233",
+    "code": "GH"
+  },
+  {
+    "name": "Guyana",
+    "dial_code": "+595",
+    "code": "GY"
+  },
+  {
+    "name": "Nigeria",
+    "dial_code": "+234",
+    "code": "NG"
+  },
+  {
+    "name": "Oman",
+    "dial_code": "+968",
+    "code": "OM"
+  },
+  {
+    "name": "Philippines",
+    "dial_code": "+63",
+    "code": "PH"
+  },
+  {
+    "name": "Poland",
+    "dial_code": "+48",
+    "code": "PL"
+  },
+  {
+    "name": "Portugal",
+    "dial_code": "+351",
+    "code": "PT"
+  },
+  {
+    "name": "Russia",
+    "dial_code": "+7",
+    "code": "RU"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "dial_code": "+239",
+    "code": "ST"
+  },
+  {
+    "name": "Saudi Arabia",
+    "dial_code": "+966",
+    "code": "SA"
+  },
+  {
+    "name": "Serbia",
+    "dial_code": "+381",
+    "code": "RS"
+  },
+  {
+    "name": "Singapore",
+    "dial_code": "+65",
+    "code": "SG"
+  },
+  {
+    "name": "Solomon Islands",
+    "dial_code": "+677",
+    "code": "SB"
+  },
+  {
+    "name": "Somalia",
+    "dial_code": "+252",
+    "code": "SO"
+  },
+  {
+    "name": "South Africa",
+    "dial_code": "+27",
+    "code": "ZA"
+  },
+  {
+    "name": "Sri Lanka",
+    "dial_code": "+94",
+    "code": "LK"
+  },
+  {
+    "name": "Thailand",
+    "dial_code": "+66",
+    "code": "TH"
+  },
+  {
+    "name": "United Arab Emirates",
+    "dial_code": "+971",
+    "code": "AE"
+  },
+  {
+    "name": "United Kingdom",
+    "dial_code": "+44",
+    "code": "GB"
+  },
+  {
+    "name": "United States",
+    "dial_code": "+1",
+    "code": "US"
+  },
+  {
+    "name": "Vietnam",
+    "dial_code": "+84",
+    "code": "VN"
+  }
+]

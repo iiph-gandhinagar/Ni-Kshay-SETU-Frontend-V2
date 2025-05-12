@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="top-logos">
+                                <rect key="frame" x="20" y="70" width="335" height="70"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usaid" translatesAutoresizingMaskIntoConstraints="NO" id="logo1">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="logo1-height"/>
+                                            <constraint firstAttribute="width" constant="70" id="logo1-width"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ntep" translatesAutoresizingMaskIntoConstraints="NO" id="logo2">
+                                        <rect key="frame" x="88.333333333333329" y="0.0" width="69.999999999999986" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="logo2-height"/>
+                                            <constraint firstAttribute="width" constant="70" id="logo2-width"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iiph" translatesAutoresizingMaskIntoConstraints="NO" id="logo3">
+                                        <rect key="frame" x="176.66666666666666" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="logo3-height"/>
+                                            <constraint firstAttribute="width" constant="70" id="logo3-width"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thunion" translatesAutoresizingMaskIntoConstraints="NO" id="logo4">
+                                        <rect key="frame" x="265" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="logo4-height"/>
+                                            <constraint firstAttribute="width" constant="70" id="logo4-width"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nsetu_logo" translatesAutoresizingMaskIntoConstraints="NO" id="center-logo">
+                                <rect key="frame" x="37.666666666666657" y="256" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="center-height"/>
+                                    <constraint firstAttribute="width" constant="300" id="center-width"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="center-logo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="center-x"/>
+                            <constraint firstItem="center-logo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="center-y"/>
+                            <constraint firstItem="top-logos" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" id="left-margin"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="top-logos" secondAttribute="trailing" constant="20" id="right-margin"/>
+                            <constraint firstItem="top-logos" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="20" id="top-margin"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.769230769230766" y="374.64454976303318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iiph" width="753" height="363"/>
+        <image name="nsetu_logo" width="966" height="1030"/>
+        <image name="ntep" width="819" height="363"/>
+        <image name="thunion" width="870" height="363"/>
+        <image name="usaid" width="807" height="363"/>
+    </resources>
+</document>

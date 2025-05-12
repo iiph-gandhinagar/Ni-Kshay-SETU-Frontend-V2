@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@env": ["./env.d.ts"],
+      "@nikshay-setu-v3-monorepo/assets": ["shared/assets/src/index.ts"],
+      "@nikshay-setu-v3-monorepo/constants": ["shared/constants/src/index.ts"],
+      "@nikshay-setu-v3-monorepo/store": ["shared/store/src/index.ts"],
+      "@nikshay-setu-v3-monorepo/types": ["shared/types/src/index.ts"],
+      "@nikshay-setu-v3-monorepo/utils": ["shared/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

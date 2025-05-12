@@ -1,0 +1,8 @@
+.ps-menu-button:hover {
+  border-radius: 12px;
+  background-color: #efefef !important;
+}
+
+.ps-menu-button:hover .ps-menu-label {
+  color: #000000 !important;
+}
